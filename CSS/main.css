@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+  background-color: yellowgreen;
+}
+
+header {
+  background-color: white;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+header nav {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  font-weight: 400;
+}
+
+nav ul {
+  list-style: none;
+}
+
+figure img {
+  width: 100%;
+}
+/*                                                                        Header classes */
+.nav-options {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-options figure {
+  max-width: 30px;
+  max-height: 30px;
+  display: none;
+}
+
+.nav-options-list {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-options-list li:hover a {
+  color: greenyellow;
+}
+
+.blue-line {
+  border: 1px cornflowerblue solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*                                                                        Body information */
+.body-info-section {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-info {
+  max-width: 270px;
+  font-weight: 300;
+  font-size: medium;
+}
+
+.body-info figure{
+  max-width: 270px;
+  max-height: 383px;
+  position: relative;
+}
+
+.article-title {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: large;
+  color: white;
+}
+
+.article-info {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.img-date {
+  width: 35%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.img-date h3 {
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.img-date p {
+  font-weight: 400;
+  font-size: small;
+}
+
+.btn-div {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn-div button {
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+.go-home-icon {
+  background-color:lightskyblue;
+  color: white;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  width: 45px;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgb(90, 90, 90);
+}
